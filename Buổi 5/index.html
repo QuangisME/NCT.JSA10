@@ -15,13 +15,9 @@
     let ob= {name :"Quang"}
     console.log(ob.name);
     var arrJson= ' ["một","hai",1,"True","False"] '
-    var json = '{"name":"Quang"}'
-    let arrInOb={
-        name: ["Quang"]
-    }
-    localStorage.setItem("name", "Quang");
-    localStorage.getItem("name");
-
+    let Priv = {Name : "QUANG",}
+        localStorage.setItem("Priv", JSON.stringify(Priv))
+        console.log(JSON.parse(localStorage.getItem("Priv")))
    </script> 
 </body>
 </html>
